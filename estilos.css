@@ -1,0 +1,654 @@
+body {
+    margin: 0;
+    padding: 0;
+    /*font-family: 'Poppins', sans-serif;*/
+    font-family:fibon-sans ;
+}
+
+@font-face {
+    font-family: fibon-sans;
+    src: url(Fibon_Sans_Regular.otf);
+
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1280px;
+    margin: auto;
+}
+
+.menu {
+    background: #fff;
+    padding: 9px 20px;
+}
+
+.menu .contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    color: #000;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+/*ESTILOS SECCIÓN INTRO*/
+
+#intro {
+    background: url(imagenes/intro.jpg);
+    background-size: cover;
+    background-position: center;
+    /*font-family: 'Oswald';*/
+    font-family: fibon-sans;
+    display: flex;
+}
+
+#intro .izquierda {
+    background-color: rgba(255,255,255,0.85);
+    width: 66%;
+    padding: 65px 75px;
+}
+
+#intro .derecha {
+    width: 57%;
+    color: #fff;
+    height: 503px;
+    background-image: linear-gradient(180deg, rgba(255,255,255,0) 80%, #fff 80%);
+}
+
+#intro .contenido {
+    background: red;
+    padding: 1px 50px 40px 50px;
+}
+
+#intro .izquierda p {
+    font-size: 14px;
+    letter-spacing: 18px;
+}
+
+#intro h1 {
+    font-size: 66px;
+    font-weight: 100;
+    letter-spacing: 19px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+#intro a, #programs a, #testimonials a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    letter-spacing: 7px;
+    border-bottom: 2px solid red;
+    padding-bottom: 13px;
+    padding: 0 18px 13px 10px;
+}
+
+#intro .derecha a {
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 20px;
+    display: inline-block;
+}
+
+#intro .derecha p {
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+/*PROGRAMS*/
+
+#programs {
+    padding-top: 90px;
+    text-align: center;
+    /*font-family: 'Oswald';*/
+    font-family: fibon-sans;
+}
+
+.rojo {
+    color: red;
+}
+
+#programs .cero {
+    font-size: 80px;
+    margin-bottom: 0;
+}
+
+#programs .ini {
+    letter-spacing: 18px;
+    font-size: 15px;
+}
+
+#programs h2 {
+    font-size: 63px;
+    font-weight: 100;
+    letter-spacing: 16px;
+    margin: 0;
+    margin-top: 30px;
+    margin-bottom: 16px;
+}
+
+#programs p {
+    /*font-family: 'Open Sans';*/
+    font-family: fibon-sans;
+    color: #666;
+    font-size: 15px;
+    width: 73%;
+    margin: auto;
+    line-height: 30px;
+}
+
+#programs a {
+    margin-top: 62px;
+    display: inline-block;
+}
+
+.contenedor-programs {
+    display: flex;
+    margin-top: 50px;
+    width: 88%;
+    margin: auto;
+}
+
+#programs #uno {
+    background: #2A2E3F;
+    color: #fff;
+}
+
+#uno p, #dos p, #tres p {
+    color: #fff;
+    text-align: left;
+    width: 100%;
+}
+
+h3 {
+    font-size: 26px;
+    letter-spacing: 4px;
+    margin: 0;
+    text-align: left;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.program {
+    padding: 45px 47px;
+    box-shadow: 50px 70px 120px -42px rgba(0,0,0,0.3);
+}
+
+#dos {
+    background: red;
+    color: #fff;
+    position: relative;
+    top: 120px;
+}
+
+#tres p {
+    color: #000;
+}
+
+/*Video*/
+#section-video {
+    padding-top: 90px;
+    text-align: center;
+}
+
+#section-video .contenedor {
+    position: relative;
+}
+
+#section-video .botones {
+    position: absolute;
+    top: 35%;
+    left: 46%;
+}
+
+#section-video i {
+    font-size: 125px;
+    color: #fff;
+}
+
+#section-video button {
+    border: 0;
+    background: none;
+}
+
+/*Join*/
+#join {
+    display: flex;
+    padding-top: 200px;
+}
+
+#join .izquierda {
+    width: 49%;
+    background: #FA2A20;
+    margin-left: 100px;
+    height: 340px;
+    position: relative;
+}
+
+#join img {
+    width: 47%;
+}
+
+#join .derecha {
+    width: 53%;
+    position: relative;
+    background: url(imagenes/join-back.jpg);
+    background-size: cover;
+}
+
+#join .izquierda a {
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 15px 24px;
+    text-decoration: none;
+    display: inline-block;
+    /*font-family: 'Oswald';*/
+    font-family: fibon-sans;
+    letter-spacing: 5px;
+    position: absolute;
+    top: 8%;
+    left: 32%;
+}
+
+#join #uno {
+    position: absolute;
+    top: 24%;
+    left: 56%;
+    z-index: 1;
+    width: 44%;
+}
+
+#join #dos {
+    position: absolute;
+    top: -44%;
+}
+
+#join #tres {
+    position: absolute;
+    left: 47%;
+    top: 24%;
+    width: 44%;
+}
+
+/*Testimonials*/
+#testimonials {
+    padding-top: 90px;
+    text-align: center;
+}
+
+span.comillas {
+    font-size: 120px;
+    color: red;
+}
+
+#testimonials h2 {
+    font-size: 63px;
+    font-weight: 100;
+    letter-spacing: 16px;
+    margin: 0;
+    margin-bottom: 36px;
+    /*font-family: 'Oswald';*/
+    font-family: fibon-sans;
+}
+
+#testimonials a {
+    /*font-family: 'Oswald';*/
+    font-family: fibon-sans;
+}
+
+.contenedor-testimonials {
+    display: flex;
+    margin-top: 90px;
+    justify-content: center;
+}
+
+.testimonial {
+    width: 40%;
+    margin-right: 40px;
+}
+
+.testimonial .contenido {
+    display: flex;
+}
+
+.foto {
+    background: url(imagenes/testimonial.jpg);
+    background-size: cover;
+    width: 490px;
+    height: 85px;
+    border-radius: 100%;
+    margin-top: 22px;
+    background-position: center;
+}
+
+.testimonial p {
+    color: #666;
+    font-size: 15px;
+    text-align: left;
+    margin-left: 24px;
+    line-height: 30px;
+    font-family: fibon-sans;
+}
+
+p.nombre {
+    margin-left: 125px;
+    font-weight: bold;
+}
+
+/*CONTACTO*/
+#contacto {
+    background: url(imagenes/contacto.jpg);
+    font-family: 'Oswald';
+    color: #fff;
+    display: flex;
+}
+
+#contacto .izquierda {
+    padding: 100px;
+    width: 43%;
+}
+
+#contacto .izquierda p {
+    font-size: 14px;
+    letter-spacing: 18px;
+}
+
+#contacto h2 {
+    font-size: 66px;
+    font-weight: 100;
+    letter-spacing: 19px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+#contacto form input[type="text"], #contacto form input[type="email"],
+ #contacto form textarea {
+    width: 100%;
+    border: 0;
+    background: none;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    font-size: 16px;
+    margin-bottom: 34px;
+    /*font-family: 'Oswald';*/
+    font-family: fibon-sans;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 100;
+    color: #fff;
+}
+
+::placeholder {
+     color: #fff;
+}
+
+ input[type="submit"] {
+     background: none;
+     border: 1px solid #fff;
+     padding: 20px 30px;
+     color: #fff;
+     font-size: 17px;
+     /*font-family: 'Oswald';*/
+     font-family: fibon-sans;
+     letter-spacing: 5px;
+     float: right;
+}
+
+#contacto .derecha {
+    background: #F7291F;
+    align-self: flex-end;
+    padding: 5px 50px 50px 50px;
+    width: 36%;
+}
+
+.gym-hours {
+    box-shadow: 0px 70px 120px -42px rgba(0,0,0,0.3);
+    padding: 30px;
+    margin-bottom: 32px;
+}
+
+.gym-hours ul {
+    padding: 0;
+}
+
+.gym-hours li {
+    list-style: none;
+    /*font-family: 'Open Sans', sans-serif;*/
+    font-family: fibon-sans;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.pass {
+    background: #fff;
+    color: #000;
+    padding: 30px;
+}
+
+.pass a {
+    text-decoration: none;
+    color: #000;
+    border: 1px solid red;
+    padding: 22px 30px;
+    display: inline-block;
+    font-size: 17px;
+    letter-spacing: 5px;
+    margin-top: 20px;
+}
+
+.menu-icon {
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+
+    nav {
+        position:absolute;
+        top: 15%;
+        left: 0;
+        width: 100%;
+        background: #000;
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+        float: right;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    nav ul li a {
+        color: #fff;
+    }
+
+    #intro .izquierda p {
+        letter-spacing: 6px;
+    }
+
+    #intro h1 {
+        font-size: 36px;
+        letter-spacing: 9px;
+    }
+
+    #intro a, #programs a, #testimonials a {
+        font-size: 13px;
+        letter-spacing: 4px;
+    }
+
+    #intro .izquierda {
+        width: 100%;
+        padding: 24px 26px;
+        height: 258px;
+    }
+
+    #intro {
+        flex-direction: column;
+    }
+
+    #intro .derecha {
+        width: 100%;
+        height: 200px;
+    }
+
+    #programs .cero {
+        font-size: 57px;
+    }
+
+    #programs .ini {
+        letter-spacing: 12px;
+    }
+
+    #programs h2 {
+        font-size: 34px;
+    }
+
+    #programs p {
+        width: 100%;
+    }
+
+    .contenedor-programs {
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    #dos {
+        position: relative;
+        top: 35px;
+    }
+
+    #tres {
+        margin-top: 50px;
+    }
+
+    #video {
+        width: 342px;
+        height: 298px;
+    }
+
+    #section-video i {
+        font-size: 62px;
+    }
+
+    #section-video .botones {
+        top: 42%;
+        left: 40%;
+    }
+
+    #section-video {
+        padding-top: 0;
+    }
+
+    #join {
+        flex-direction: column;
+        padding-top: 45px;
+    }
+
+    #join .izquierda {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #join #uno {
+        top: 34%;
+        left: 30%;
+    }
+
+    #join .derecha {
+        width: 100%;
+    }
+
+    #join #tres {
+        left: 47%;
+        top: 82px;
+        width: 53%;
+    }
+
+    #join #dos {
+        top: 1px;
+    }
+
+    #join img {
+        width: 63%;
+    }
+
+    #testimonials {
+        padding-top: 390px;
+    }
+
+    #testimonials h2 {
+        font-size: 24px;
+        letter-spacing: 15px;
+    }
+
+    .contenedor-testimonials {
+        flex-direction: column;
+    }
+
+    .testimonial {
+        width: 100%;
+    }
+
+    .foto {
+        height: 59px;
+    }
+
+    #contacto {
+        flex-direction: column;
+    }
+
+    #contacto .izquierda {
+        width: 100%;
+    }
+
+    #contacto .izquierda {
+        padding: 26px;
+    }
+
+    #contacto .izquierda p {
+        letter-spacing: 9px;
+    }
+
+    #contacto h2 {
+        font-size: 35px;
+    }
+
+    #contacto form input[type="text"], #contacto form input[type="email"],
+     #contacto form textarea {
+         width: 82%;
+     }
+
+     input[type="submit"] {
+
+        float: left;
+     }
+
+    #contacto .derecha {
+        padding: 5px 18px 50px 17px;
+        width: 91%;
+    } 
+
+    .gym-hours {
+        padding: 16px;
+    }
+
+    .pass {
+        padding: 13px;
+    }
+}
