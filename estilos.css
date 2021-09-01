@@ -245,7 +245,7 @@ h3 {
 #join .derecha {
     width: 53%;
     position: relative;
-    background: url(imagenes/join-back.jpg);
+    background: url(imagenes/habitacion3.jpg);
     background-size: cover;
 }
 
@@ -280,18 +280,18 @@ h3 {
     position: absolute;
     left: 47%;
     top: 24%;
-    width: 44%;
+    width: 35%;
 }
 
 /*Testimonials*/
 #testimonials {
-    padding-top: 90px;
+    padding-top: 230px;
     text-align: center;
 }
 
 span.comillas {
     font-size: 120px;
-    color: red;
+    color: #E6D0CE;
 }
 
 #testimonials h2 {
@@ -350,9 +350,9 @@ p.nombre {
 
 /*CONTACTO*/
 #contacto {
-    background: url(imagenes/contacto.jpg);
+    background: url(imagenes/habitacion9.jpg);
     font-family: 'Oswald';
-    color: #fff;
+    color: #000;
     display: flex;
 }
 
@@ -379,7 +379,7 @@ p.nombre {
     width: 100%;
     border: 0;
     background: none;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #000;
     padding-bottom: 20px;
     font-size: 16px;
     margin-bottom: 34px;
@@ -388,18 +388,18 @@ p.nombre {
     letter-spacing: 3px;
     text-transform: uppercase;
     font-weight: 100;
-    color: #fff;
+    color: #000;
 }
 
 ::placeholder {
-     color: #fff;
+     color: #000;
 }
 
  input[type="submit"] {
      background: none;
-     border: 1px solid #fff;
+     border: 1px solid #CAB7B6;
      padding: 20px 30px;
-     color: #fff;
+     color: #CAB7B6;
      font-size: 17px;
      /*font-family: 'Oswald';*/
      font-family: fibon-sans;
@@ -408,7 +408,7 @@ p.nombre {
 }
 
 #contacto .derecha {
-    background: #F7291F;
+    background: #E6D0CE;
     align-self: flex-end;
     padding: 5px 50px 50px 50px;
     width: 36%;
@@ -441,7 +441,7 @@ p.nombre {
 .pass a {
     text-decoration: none;
     color: #000;
-    border: 1px solid red;
+    border: 1px solid #CAB7B6;
     padding: 22px 30px;
     display: inline-block;
     font-size: 17px;
@@ -657,5 +657,10 @@ p.nombre {
 
     .pass {
         padding: 13px;
+    }
+
+    #whatsapp a {
+        
+        right: 11%;
     }
 }
