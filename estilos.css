@@ -18,8 +18,8 @@ body {
 }
 
 .menu {
-    background: #fff;
-    padding: 9px 20px;
+    background: #705D31;
+    padding: 1px 20px;
 }
 
 .menu .contenedor {
@@ -29,9 +29,9 @@ body {
 }
 
 header .logo {
-    color: #000;
-    font-size: 23px;
-    font-weight: bold;
+    width: 16%;
+    margin-top: -18px;
+    margin-bottom: -12px;
 }
 
 nav ul li {
@@ -41,13 +41,13 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #000;
+    color: #fff;
 }
 
 /*ESTILOS SECCIÓN INTRO*/
 
 #intro {
-    background: url(imagenes/intro.jpg);
+    background: url(imagenes/habitacion.jpg);
     background-size: cover;
     background-position: center;
     /*font-family: 'Oswald';*/
@@ -69,7 +69,7 @@ nav ul li a {
 }
 
 #intro .contenido {
-    background: red;
+    background: #E6D0CE;
     padding: 1px 50px 40px 50px;
 }
 
@@ -91,7 +91,7 @@ nav ul li a {
     color: #000;
     font-size: 20px;
     letter-spacing: 7px;
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid #E6D0CE;
     padding-bottom: 13px;
     padding: 0 18px 13px 10px;
 }
@@ -118,7 +118,7 @@ nav ul li a {
 }
 
 .rojo {
-    color: red;
+    color: #CAB7B6;
 }
 
 #programs .cero {
@@ -163,7 +163,7 @@ nav ul li a {
 }
 
 #programs #uno {
-    background: #2A2E3F;
+    background: #797979;
     color: #fff;
 }
 
@@ -188,7 +188,7 @@ h3 {
 }
 
 #dos {
-    background: red;
+    background: #E6D0CE;
     color: #fff;
     position: relative;
     top: 120px;
@@ -232,7 +232,7 @@ h3 {
 
 #join .izquierda {
     width: 49%;
-    background: #FA2A20;
+    background: #E6D0CE;
     margin-left: 100px;
     height: 340px;
     position: relative;
@@ -451,6 +451,13 @@ p.nombre {
 
 .menu-icon {
     display: none;
+}
+
+#whatsapp a {
+    background: none;
+    position: fixed;
+    top: 85%;
+    right: 1%;
 }
 
 @media screen and (max-width: 800px) {
