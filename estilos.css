@@ -273,14 +273,14 @@ h3 {
 
 #join #dos {
     position: absolute;
-    top: -44%;
+    top: -10%;
 }
 
 #join #tres {
     position: absolute;
     left: 47%;
-    top: 24%;
-    width: 35%;
+    top: 36%;
+    width: 47%;
 }
 
 /*Testimonials*/
@@ -453,10 +453,18 @@ p.nombre {
     display: none;
 }
 
+#carrito a {
+    background: none;
+    position: fixed;
+    top: 60%;
+    right: 1%;
+}
+
+
 #whatsapp a {
     background: none;
     position: fixed;
-    top: 85%;
+    top: 80%;
     right: 1%;
 }
 
@@ -659,8 +667,19 @@ p.nombre {
         padding: 13px;
     }
 
+    #carrito a {
+        
+        right: 13%;
+        top: 50%;
+    }
+
+    #carrito img {
+        height: 64px;
+    }
+
     #whatsapp a {
         
         right: 11%;
+        top: 76%;
     }
 }
