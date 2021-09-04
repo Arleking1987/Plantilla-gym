@@ -110,6 +110,28 @@ nav ul li a {
 
 /*PROGRAMS*/
 
+
+.carousel {
+    box-shadow: 50px 70px 120px -42px rgba(0,0,0,0.3);
+}
+
+.owl-nav {
+    text-align: center;
+    font-size: 80px;
+}
+
+.mandala-azul {
+    height: 336px;
+}
+
+.duvet {
+    height: 336px;
+}
+
+.memory {
+    height: 336px;
+}
+
 #programs {
     padding-top: 90px;
     text-align: center;
@@ -121,9 +143,34 @@ nav ul li a {
     color: #CAB7B6;
 }
 
+#cuenta {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+
+.simply-section {
+    background: #fff;
+    width: 180px;
+    height: 180px;
+    margin: 0 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.simply-amount {
+    display: block;
+    font-weight: 700;
+}
+
 #programs .cero {
-    font-size: 80px;
+    font-size: 40px;
     margin-bottom: 0;
+    
 }
 
 #programs .ini {
@@ -689,7 +736,7 @@ footer nav.button_bar ul.medios_pago li {
     }
 
     #programs .cero {
-        font-size: 57px;
+        font-size: 15px;
     }
 
     #programs .ini {

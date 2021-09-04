@@ -5,13 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Document</title>
+    <title>BeCotton</title>
     <link rel="isotipo" type="image/png" href="imagenes/Becotton_Isotipo_Original.png">
     <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700|Poppins:300,400,500,700"
         rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
 </head>
 
 <body>
@@ -26,9 +28,9 @@
                 <nav id="inicio">
                     <ul>
                         <li><a href="">Tienda</a></li>
-                        <li><a href="">Pricing</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Contact</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Nosotros</a></li>
+                        <li><a href="">Contactanos</a></li>
                     </ul>
                 </nav>
             </div>
@@ -44,16 +46,29 @@
         </div>
         <div class="derecha">
             <div class="contenido">
-                <p>TRY A FREE 3 DAY GYM PASS</p>
-                <a href="">GET YOUR PASS</a>
+                <p>CONOCE EL ESTADO DE TU PEDIDO!</p>
+                <a href="">ESTADO DEL PEDIDO</a>
             </div>
         </div>
     </section>
 
     <section id="programs">
         <div class="contenedor">
-            <div class="rojo cero">0.00</div>
-            <div class="rojo ini">INITIATION FEE</div>
+            <div id="cuenta" class="rojo cero"></div>
+            <div id="titulo-promociones" class="rojo ini">APROVECHA NUESTRAS PROMOCIONES</div>
+
+            <div id="promociones" class="contenedor">
+                <!-- Set up your HTML -->
+                <div class="owl-carousel">
+                    <div class="carousel"><a href=""><img src="imagenes/Love.jpg" alt=""></a></div>
+                    <div><a href=""><img class="mandala-azul" src="imagenes/mandalaAzul.jpg" alt=""></a></div>
+                    <div><a href=""><img src="imagenes/Paris.jpg" alt=""></a></div>
+                    <div><a href=""><img src="imagenes/estrellas.jpg" alt=""></a></div>
+                    <div><a href=""><img class="duvet" src="imagenes/duvetNegro.jpg" alt=""></a></div>
+                    <div><a href=""><img class="memory" src="imagenes/memoryFoam.jpg" alt=""></a></div>
+                  </div>
+            </div>
+
             <h2>FEATURED PROGRAMS</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                 dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
@@ -241,21 +256,20 @@
                 </ul>
                 <ul class="medios_pago">
 
-                    <li><img src="imagenes/logo-bancolombia.png" alt="Bancolombia"
-                            title="Bancolombia"></li>
+                    <li><img src="imagenes/logo-bancolombia.png" alt="Bancolombia" title="Bancolombia"></li>
                     <li><img src="imagenes/BBVA.png" alt="BBVA" title="BBVA"></li>
-                    <li><img src="imagenes/Nequi.png" alt="Nequi"
-                            title="Nequi"></li>
-                    <li><img id="daviplata" src="imagenes/daviplata.png" alt="Daviplata"
-                            title="Daviplata"></li>
-                    <li><img id="mercadopago" src="imagenes/logo-mercado-pago.png" alt="Mercadopago" title="Mercadopago"></li>
-                    
+                    <li><img src="imagenes/Nequi.png" alt="Nequi" title="Nequi"></li>
+                    <li><img id="daviplata" src="imagenes/daviplata.png" alt="Daviplata" title="Daviplata"></li>
+                    <li><img id="mercadopago" src="imagenes/logo-mercado-pago.png" alt="Mercadopago"
+                            title="Mercadopago"></li>
+
                 </ul>
                 <ul class="redes">
                     <li class="titulo">ENCUÉNTRANOS</li>
-                    <li id="li-facebook"><a  href="/"><img id="facebook" src="imagenes/facebook.png" alt=""></a></li>
-                    <li><a  href="/"><img id="instagram" src="imagenes/instagram.png" alt=""></a></li>
-                    <li><a  href="/"><img id="whatsapp" src="imagenes/whatsapp.png" alt="Whatsapp" title="Whatsapp"></a></li>
+                    <li id="li-facebook"><a href="/"><img id="facebook" src="imagenes/facebook.png" alt=""></a></li>
+                    <li><a href="/"><img id="instagram" src="imagenes/instagram.png" alt=""></a></li>
+                    <li><a href="/"><img id="whatsapp" src="imagenes/whatsapp.png" alt="Whatsapp" title="Whatsapp"></a>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -274,9 +288,34 @@
         </a>
     </section>
 
+
+    <!--LIBRERÍAS JAVASCRIPT-->
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/simplyCountdown.min.js"></script>
+    <script src="js/countdown.js"></script>
+    <script src="owlcarousel/jquery.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:4
+        }
+    }
+})
+    </script>
 
 </body>
 
