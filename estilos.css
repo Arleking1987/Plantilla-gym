@@ -200,7 +200,7 @@ h3 {
 
 /*Video*/
 #section-video {
-    padding-top: 90px;
+    padding-top: 193px;
     text-align: center;
 }
 
@@ -453,6 +453,172 @@ p.nombre {
     display: none;
 }
 
+footer nav.menu_inferior {
+    color: #999999;
+    text-align: center;
+    padding: 20px 0;
+    margin: 30px 0 0 0; 
+    background-color: #705D31 ;
+    
+}
+
+.contenedor-footer-superior {
+    position: relative;
+    margin: 0 auto;
+    clear: both;
+    max-width: 1355px;
+    min-width: 320;
+    display: block;
+    text-align: center;
+}
+
+
+footer nav.menu_inferior ul {
+    list-style: none;
+    text-align: left;
+    padding: 0 3% 15px 2%;
+    font-size: 16px;
+    width: 19.5%;
+    border-right: 1px solid #999999;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    
+}
+
+footer nav.menu_inferior ul:last-child {
+    border: none;
+    
+}
+footer nav.menu_inferior ul li {
+    margin-bottom: 10px;
+    display: list-item;
+    
+}
+
+footer nav.menu_inferior ul li.titulo {
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+footer nav.menu_inferior ul li.titulo a {
+    color: #fff;
+}
+
+footer nav.menu_inferior ul li:hover a {
+    color: #797979;
+    text-decoration: none;
+    background-color: transparent;
+    text-align: left;
+    font-size: 15px;
+    background: none;
+    padding: inherit;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+
+.contenedor-footer-superior {
+    display:flex
+}
+
+footer nav.button_bar {
+    background-color: hsl(42, 19%, 55%);
+    text-align: center;
+    padding: 30px 0;
+    display: block;
+}
+
+footer nav.button_bar ul.brand {
+    width: 22%;
+}
+
+footer nav.button_bar ul:first-child li:first-child {
+    width: 100%;
+    margin-left: -82px;
+    margin-top: -43px;
+}
+
+footer nav.button_bar ul {
+    list-style: none;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0;
+    margin: 0;
+}
+
+footer nav.button_bar ul li {
+    display: inline-block;
+    vertical-align: middle;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+footer nav.button_bar ul li img {
+    max-height: 194px;
+    width: 100%;
+    position: relative;
+    max-width: 302px;
+}
+
+#derechos {
+    margin-left: -35px;
+    margin-top: -50px;
+    
+}
+
+footer nav.button_bar ul.medios_pago {
+    text-align: center;
+    width: 34%;
+    margin: 0 6%;
+}
+
+footer nav.button_bar ul.medios_pago li {
+    width: auto;
+    padding: 0 0 20px 0;
+}
+
+.medios_pago li img {
+    height: 30px;
+    height: 1.875rem;
+    width: auto !important;
+}
+
+#daviplata {
+    height: 55px;
+}
+
+#mercadopago {
+    height: 50px;
+}
+
+#facebook {
+    height: 30px;
+}
+
+#instagram {
+    height: 30px;
+}
+
+#whatsapp {
+    height: 30px;
+}
+
 #carrito a {
     background: none;
     position: fixed;
@@ -470,7 +636,7 @@ p.nombre {
 
 @media screen and (max-width: 800px) {
 
-    nav {
+    #inicio {
         position:absolute;
         top: 15%;
         left: 0;
@@ -681,5 +847,55 @@ p.nombre {
         
         right: 11%;
         top: 76%;
+    }
+
+    .menu_inferior {
+        padding-top: 390px;
+    }
+
+
+    #footer-superior{
+        display: block;
+    }
+
+    #footer-superior ul{
+        height: 230px;
+        width: 100%;
+    }
+    
+    footer nav.menu_inferior ul {
+
+        padding-inline-start: 17px;  
+
+    }
+
+    #footer-inferior ul {
+        width: 100%;
+    }
+
+    footer nav.button_bar ul:first-child li:first-child {
+        
+        margin-left: 29px;
+    }
+    
+    #derechos {
+        margin-left: 57px;
+        
+    }
+
+    footer nav.button_bar ul.medios_pago {
+        
+        margin: 0px 3%;
+    }
+
+    .titulo {
+        width: 100%;
+        text-align: center;
+        margin-left: -14px;
+    }
+
+    
+    #li-facebook{
+        padding-left: 80px;
     }
 }
