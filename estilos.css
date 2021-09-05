@@ -44,6 +44,10 @@ nav ul li a {
     color: #fff;
 }
 
+#inicio .nav-superior {
+    font-size: 22px;
+}
+
 /*ESTILOS SECCIÓN INTRO*/
 
 #intro {
@@ -110,10 +114,11 @@ nav ul li a {
 
 /*PROGRAMS*/
 
-
-.carousel {
-    box-shadow: 50px 70px 120px -42px rgba(0,0,0,0.3);
+span {
+    
+    color: #CAB7B6;
 }
+
 
 .owl-nav {
     text-align: center;
@@ -176,6 +181,10 @@ nav ul li a {
 #programs .ini {
     letter-spacing: 18px;
     font-size: 15px;
+}
+
+#porque-becotton {
+    font-size: 20px !important;
 }
 
 #programs h2 {
