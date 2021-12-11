@@ -10,6 +10,7 @@ body {
 
 }
 
+
 .contenedor {
     width: 90%;
     max-width: 1280px;
@@ -692,6 +693,53 @@ footer nav.button_bar ul.medios_pago li {
     right: 1%;
 }
 
+.modal-backdrop.show {
+    opacity: .8 !important; }
+  
+  .subscribe-newsletter-area .modal-content {
+    border-radius: 0; }
+    .subscribe-newsletter-area .modal-content .modal-body {
+      padding: 70px; }
+      @media only screen and (max-width: 767px) {
+        .subscribe-newsletter-area .modal-content .modal-body {
+          padding: 40px 30px; } }
+      .subscribe-newsletter-area .modal-content .modal-body .title {
+        font-size: 18px;
+        margin-bottom: 20px; }
+      .subscribe-newsletter-area .modal-content .modal-body .newsletterForm {
+        position: relative;
+        z-index: 1; }
+        .subscribe-newsletter-area .modal-content .modal-body .newsletterForm input {
+          width: 100%;
+          height: 60px;
+          border: 1px solid #787878;
+          font-size: 14px;
+          font-family: "Open Sans", sans-serif;
+          -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+          font-style: italic;
+          margin-bottom: 15px;
+          padding: 0 30px; }
+          .subscribe-newsletter-area .modal-content .modal-body .newsletterForm input:focus {
+            border: 1px solid #000000; }
+        .subscribe-newsletter-area .modal-content .modal-body .newsletterForm button[type="submit"] {
+          background-color: #ffffff; }
+          .subscribe-newsletter-area .modal-content .modal-body .newsletterForm button[type="submit"]:hover {
+            background-color: #30336b;
+            color: #ffffff; }
+  .subscribe-newsletter-area .close {
+    position: absolute;
+    top: -30px;
+    right: 0;
+    background-color: red !important;
+    width: 30px;
+    height: 30px;
+    color: #ffffff;
+    font-weight: 400; }
+    .subscribe-newsletter-area .close:hover {
+      color: #ffffff; }
+
+/*Responsive*/
 @media screen and (max-width: 800px) {
 
     #inicio {
