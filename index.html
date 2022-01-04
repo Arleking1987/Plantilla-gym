@@ -18,6 +18,23 @@
 
 <body>
 
+<!-- Subscribe Modal -->
+<div class="modal-container">   
+    <div class="modal modal-close">   
+        <p class="close">X</p>
+        <div class="modal-body">
+            <div class="image-container">
+                <img src="imagenes/Becotton_Isotipo_150px_V1.png" class="image-modal" alt="">
+            </div>
+            <h5 class="title">Subscríbete a nuestro boletín informativo</h5>
+            <form action="#" class="newsletterForm" method="post">
+                <input type="email" name="email" id="subscribesForm2" placeholder="Ingresa tu e-mail">                            
+                <a href="#" type="submit" class="btn button-modal">SUSCRIBIRSE</a>
+            </form>
+        </div>
+    </div>
+</div>
+
     <header>
         <div class="menu">
             <div class="contenedor">
@@ -195,8 +212,8 @@
             </div>
 
             <div class="pass">
-                <h3>SUBSCRÍBETE A NUESTRO BOLETÍN Y RECIBE UN 15% DE DESCUENTO</h3>
-                <a href="">GET STARTED</a>
+                <h3>SUBSCRÍBETE A NUESTRO BOLETÍN Y RECIBE UN CUPÓN CON UN 15% DE DESCUENTO</h3>
+                <a href="#" class="btn subscribe-btn" data-toggle="modal" data-target="#subsModal">SUSCRIBIRSE</a>
             </div>
 
         </div>
@@ -319,11 +336,8 @@
                 }
             }
         })
-    </script>
-
+    </script>  
     
-    
-
 </body>
 
 </html>

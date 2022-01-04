@@ -28,7 +28,7 @@ var respuesta = document.getElementById('respuesta');
 var detalle = document.getElementById('Detalle');
 
 const aplication = document.querySelector('.container');
-let Api_Url_GetPedidoById = 'https://localhost:5001/api/Pedidos/GetPedidoById2';
+let Api_Url_GetPedidoById = 'https://localhost:5001/api/Pedidos/GetPedidoById';
 formulario.addEventListener('submit', function (event) {
     event.preventDefault();
     console.log('me diste un click')

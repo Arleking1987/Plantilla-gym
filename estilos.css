@@ -48,6 +48,97 @@ nav ul li a {
     font-size: 22px;
 }
 
+/*SubscribeModal*/
+.modal-container{
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0%;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.close{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: #c44a4a;
+    color: #fff;
+    line-height: 25px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.modal{
+    width: 25%;
+    height: 45%;
+    background: #E6D0CE;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E6D0CE, #fff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E6D0CE, #fff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position:relative;
+    transition: transform 1s;
+    transform: translateY(0%);
+    border-radius: 10px;
+    /*overflow: hidden;*/
+}
+
+.modal-close{
+    transform: translateY(-200%);
+}
+
+.modal h5{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.newsletterForm .button-modal{
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #CAB7B6;
+    padding: 22px 30px;
+    display: inline-block;
+    font-size: 15px;
+    letter-spacing: 5px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.newsletterForm {
+    margin-bottom: 80px;
+}
+
+.newsletterForm #subscribesForm2{
+    width: 70%;
+    border: 0;
+    background: none;
+    border-bottom: 1px solid #000;
+    padding-bottom: 20px;
+    font-size: 16px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    margin-right: 20px;
+    /* font-family: 'Oswald'; */
+    font-family: fibon-sans;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 100;
+    color: #000;
+}
+
 /*ESTILOS SECCIÓN INTRO*/
 
 #intro {
@@ -741,6 +832,28 @@ footer nav.button_bar ul.medios_pago li {
 
 /*Responsive*/
 @media screen and (max-width: 800px) {
+
+    .newsletterForm .button-modal{
+        text-decoration: none;
+        color: #000;
+        border: 1px solid #CAB7B6;
+        padding: 22px 30px;
+        display: inline-block;
+        font-size: 10px;
+        letter-spacing: 5px;
+        margin-top: 10px;
+        margin-bottom: 60px;
+        margin-left: 10px;
+    }
+
+    .image-container{
+        margin-top: 30px;
+    margin-bottom: 0px;
+    }
+
+    .modal .title{
+        margin-top: 10px;
+    }
 
     #inicio {
         position:absolute;
